@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.log
+
+# Virtual environments
+venv/
+.env
+
+# macOS
+.DS_Store
+
+# Training logs and backups
+logs/
+backups/
+
+# Temporary files
+.pytest_cache/
+.mypy_cache/
+.coverage
+# Exclude older evaluation outputs; retain verified comparison
+results/*
+!results/compare/
+!results/compare/**
+
+# Private notes
+INTERVIEW_PREP.md
+
+
+
+
